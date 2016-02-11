@@ -16,7 +16,7 @@ This is a command line PHP script that import csv file into MySql.
             --create_table - this will cause the MySQL " Users"  table to be built if table "Users" exists,
                              this will drop and create again (and no further action will be taken).
             
-            eg. php user_upload.php --create_table -h localhost -d testDB -u username -p password
+            eg. php user_upload.php --create_table -h localhost -d databaseName -u username -p password
             
             --dry_run - this will be used with the --file directive in the instance that we want to run the
                         script but not insert into the DB. All other functions will be executed,but the 
