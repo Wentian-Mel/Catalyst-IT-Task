@@ -1,5 +1,6 @@
 # Catalyst-IT-Task
 
+This is a command line PHP script that import csv file into MySql.
 
 
         Usage:
